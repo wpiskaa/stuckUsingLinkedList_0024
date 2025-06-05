@@ -54,5 +54,14 @@ class Stack
         {
             cout << "List is empty." << endl;
         }
+        else
+        {
+            Node *current = top;
+            while (current != NULL)
+            {
+                cout << current->next << " " << endl;
+                current = current->next;
+            }
+        }
     }
 };
