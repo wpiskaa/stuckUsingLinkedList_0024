@@ -62,6 +62,31 @@ class Stack
                 cout << current->next << " " << endl;
                 current = current->next;
             }
+            cout << endl;
         }
     }
 };
+
+int main()
+{
+    Stack stack;
+
+    int choice = 0;
+    int value;
+    
+    while (choice != 4)
+    {
+        cout << "1 Push\n";
+        cout << "2. Pop\n";
+        cout << "3. Peek\n";
+        cout << "4. Exit\n";
+        cout << "Enter yout choice: ";
+        cin >> choice;
+
+        switch (choice)
+        {
+            case 1:
+            cout << "Enter the value to push: ";
+        }
+    }
+}
