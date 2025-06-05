@@ -87,6 +87,7 @@ int main()
         {
             case 1:
             cout << "Enter the value to push: ";
+            cin >> value;
         }
     }
 }
