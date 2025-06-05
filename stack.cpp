@@ -45,5 +45,14 @@ class Stack
             cout << "Stack is empty." << endl;
             return;
         }
+        cout << "Propped value: " << top->next << endl;
+        top = top->next;
+    }
+    void peek()
+    {
+        if (isEmpty())
+        {
+            cout << "List is empty." << endl;
+        }
     }
 };
